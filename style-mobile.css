@@ -71,7 +71,7 @@
         flex-flow: column nowrap;
     }
 
-    .info-news__container:nth-child(2) {
+    .info-news__container:last-child {
         background: inherit;
     }
 

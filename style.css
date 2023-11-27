@@ -160,7 +160,7 @@ nav {
 }
 
 .info-news__container:nth-child(2) {
-    background: #d8d8d8;
+    border-top: 1px solid #e0e2e2;
 }
 
 .info-news__container:first-child {
@@ -170,6 +170,7 @@ nav {
 
 .info-news__container:last-child {
     border-bottom: none;
+    background: #d8d8d8;
 }
 
 .info-news-container__image--desktop {
