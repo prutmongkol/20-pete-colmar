@@ -237,8 +237,39 @@ nav {
     padding: 0 16px 24px 16px;
     color: #767676;
 }
-
 /* End of Course */
+
+/* Thesis */
+.thesis {
+    background: #f3f5f5;
+}
+
+.thesis__title {
+    font-size: 1.8em;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.thesis-container-main__video {
+    padding-bottom: 24px;
+}
+
+.thesis-container-main__title,
+.thesis-container-side-item-text__title {
+    padding-bottom: 8px;
+
+    font-size: 1.8em;
+    color: #4a4a4a;
+}
+
+.thesis-container-main__text,
+.thesis-container-side-item-text__paragraph {
+    padding-bottom: 32px;
+
+    color: #4a4a4a;
+}
+/* End of Thesis */
 
 /* Footer */
 footer {
