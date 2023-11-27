@@ -67,11 +67,13 @@ nav {
 
 .callout__title {
     font-size: 3em;
+    color: #4a4a4a;
 }
 
 .callout__subtitle {
     font-size: 1.6em;
     margin: 32px 0 24px 0;
+    color: #4a4a4a;
 }
 
 .callout_button {
