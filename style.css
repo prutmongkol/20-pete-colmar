@@ -251,20 +251,73 @@ nav {
     padding: 32px 0;
 }
 
-.thesis-container-main__video {
-    padding-bottom: 24px;
+.thesis__container {
+    padding-left: 24px;
+
+    display: flex;
+    flex: row nowrap;
+    gap: 24px;
 }
 
-.thesis-container-main__title,
-.thesis-container-side-item-text__title {
+.thesis-container__main {
+    width: calc(60vw - 48px);
+}
+
+.thesis-container-main__video {
+    padding-bottom: 24px;
+    width: calc(60vw - 48px);
+}
+
+.thesis-container__side {
+    width: calc(40vw - 48px);
+
+}
+
+.thesis-container-side__item {
+    padding: 16px 0 16px 16px;
+
+    display: flex;
+    flex: row nowrap;
+}
+
+.thesis-container-side__item:first-child {
+    background: #d8d8d8;
+}
+
+.thesis-container-side-item__image {
+    width: 35%;
+    height: auto;
+}
+
+.thesis-container-main__title {
     padding-bottom: 8px;
 
     font-size: 1.8em;
     color: #4a4a4a;
 }
 
-.thesis-container-main__text,
+.thesis-container-side-item__text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.thesis-container-side-item-text__title {
+    padding-left: 16px;
+    padding-bottom: 8px;
+    color: #4a4a4a;
+}
+
 .thesis-container-side-item-text__paragraph {
+    padding-left: 16px;
+    color: #4a4a4a;
+}
+
+.thesis-container-main__title {
+    padding-bottom: 8px;
+}
+
+.thesis-container-main__text {
     padding-bottom: 32px;
 
     color: #4a4a4a;
