@@ -160,7 +160,7 @@ nav {
     flex-flow: row nowrap;
 }
 
-.info-news__container:hover {
+.info-news__container:nth-child(2) {
     background: #d8d8d8;
 }
 
