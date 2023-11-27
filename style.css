@@ -7,6 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation */
@@ -43,11 +45,42 @@ nav {
 .nav__online--desktop,
 .nav__companies--desktop,
 .nav__sign-in--desktop {
-    font-family: 'Roboto', sans-serif;
     color: #4a4a4a;
 }
 
+/* Hero */
+.hero {
+    padding: 32px 24px;
+    background: #d8d8d8;
 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero__image {
+    width: calc(60% - 72px);
+    flex: 1 0 auto;
+}
+
+.callout__title {
+    font-size: 3em;
+}
+
+.callout__subtitle {
+    font-size: 1.6em;
+    margin: 16px 0;
+}
+
+.callout_button {
+    background: #4a4a4a;
+    color: white;
+    /* height: calc(1em + 16px); */
+    text-align: center; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
 /* Footer */
 footer {
@@ -58,7 +91,6 @@ footer {
     justify-content: flex-end;
     gap: 16px;
 
-    font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
 }
 
