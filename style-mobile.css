@@ -15,6 +15,7 @@
     .nav__home {
         flex: inherit;
     }
+    /* End of Navigation */
 
     /* Hero */
     .hero {
@@ -46,10 +47,12 @@
         font-size: 1.2em;
 
     }
+    /* End of Hero */
 
     /* Footer */
     .footer__term,
     .footer__privacy {
         display: none;
     }
+    /*End of Footer*/
 }

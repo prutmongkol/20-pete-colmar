@@ -47,6 +47,7 @@ nav {
 .nav__sign-in--desktop {
     color: #4a4a4a;
 }
+/* End of Navigation */
 
 /* Hero */
 .hero {
@@ -60,7 +61,7 @@ nav {
 }
 
 .hero__image {
-    width: calc(60% - 72px);
+    width: calc(60vw - 48px);
     flex: 1 0 auto;
     object-fit: cover;
 }
@@ -83,6 +84,49 @@ nav {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+/* End of Hero */
+
+/* Information */
+.information {
+    margin: 32px 0 32px 24px;
+
+    display: flex;
+    column-gap: 24px;
+}
+
+    /* Left Box */
+.information__main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.info-main__image {
+    width: calc(60vw - 48px);
+    object-fit: cover;
+}
+
+.info-main__title {
+    width: calc(60vw - 48px);
+}
+
+.info-main__text {
+    width: calc(60vw - 48px);
+}
+
+    /* Right Box*/
+.information__news {
+    display: flex;
+    flex-flow: column nowrap;
+
+    flex: 1 0 calc(40vw - 48px);
+}
+
+.info-news__container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* End of Information */
 
 /* Footer */
 footer {
@@ -105,3 +149,4 @@ footer a:any-link {
     text-decoration: none;
     color: black; /* to be edited */
 }
+/* End of Footer */
