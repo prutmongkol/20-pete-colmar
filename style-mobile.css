@@ -1,4 +1,21 @@
 @media (max-width: 426px) {
+    /* Navigation */
+    .nav__home-text,
+    .nav__campus--desktop,
+    .nav__online--desktop,
+    .nav__companies--desktop,
+    .nav__sign-in--desktop {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .nav__home {
+        flex: inherit;
+    }
+
     /* Footer */
     .footer__term,
     .footer__privacy {

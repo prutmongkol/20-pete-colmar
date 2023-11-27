@@ -1,0 +1,8 @@
+@media (min-width: 426px) {
+    /* Navigation */
+    .nav__campus--mobile,
+    .nav__online--mobile,
+    .nav__sign-in--mobile {
+        display: none;
+    }
+}

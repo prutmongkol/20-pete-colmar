@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/* navigation */
+/* Navigation */
 nav {
     padding: 16px 24px;
 
@@ -30,11 +30,24 @@ nav {
 
 .nav__home-text {
     display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    color: #9b9b9b;
 }
 
 .nav__home-text--accent {
-    display: inline-block;
+    font-weight: bold;
+    color: #4a4a4a;
 }
+
+.nav__campus--desktop,
+.nav__online--desktop,
+.nav__companies--desktop,
+.nav__sign-in--desktop {
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+}
+
+
 
 /* Footer */
 footer {
