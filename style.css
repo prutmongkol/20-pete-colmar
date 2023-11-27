@@ -9,6 +9,33 @@
     box-sizing: border-box;
 }
 
+/* navigation */
+nav {
+    padding: 16px 24px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav__home {
+    flex: 1 0 auto;
+}
+
+.nav__home-logo {
+    height: 32px;
+    vertical-align: middle;
+}
+
+.nav__home-text {
+    display: inline-block;
+}
+
+.nav__home-text--accent {
+    display: inline-block;
+}
+
 /* Footer */
 footer {
     padding: 16px 24px;
