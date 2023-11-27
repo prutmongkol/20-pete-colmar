@@ -16,6 +16,37 @@
         flex: inherit;
     }
 
+    /* Hero */
+    .hero {
+        padding: 0;
+        background: #d8d8d8;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        /* justify-content: flex-end; */
+        align-items: inherit;
+        gap: 0px;
+    }
+
+    .hero__image {
+        width: 100%;
+        flex: 1 0 auto;
+        object-fit: cover;
+    }
+
+    .hero__callout {
+        padding: 32px 16px;
+    }
+
+    .callout__title {
+        font-size: 2em;
+    }
+
+    .callout__subtitle {
+        font-size: 1.2em;
+
+    }
+
     /* Footer */
     .footer__term,
     .footer__privacy {

@@ -62,6 +62,7 @@ nav {
 .hero__image {
     width: calc(60% - 72px);
     flex: 1 0 auto;
+    object-fit: cover;
 }
 
 .callout__title {
@@ -70,13 +71,12 @@ nav {
 
 .callout__subtitle {
     font-size: 1.6em;
-    margin: 16px 0;
+    margin: 32px 0 24px 0;
 }
 
 .callout_button {
     background: #4a4a4a;
     color: white;
-    /* height: calc(1em + 16px); */
     text-align: center; 
     padding-top: 8px;
     padding-bottom: 8px;
