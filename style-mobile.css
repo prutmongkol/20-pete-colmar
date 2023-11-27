@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     /* Navigation */
     .nav__home-text,
     .nav__campus--desktop,
@@ -46,6 +46,10 @@
     .callout__subtitle {
         font-size: 1.2em;
 
+    }
+
+    .callout_button {
+        background: #9b9b9b;
     }
     /* End of Hero */
    
