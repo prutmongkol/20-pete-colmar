@@ -1,0 +1,7 @@
+@media (max-width: 426px) {
+    /* Footer */
+    .footer__term,
+    .footer__privacy {
+        display: none;
+    }
+}
