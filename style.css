@@ -144,7 +144,7 @@ nav {
     /* Right Box*/
 .information__news {
     padding: 32px 0;
-    border: 1px solid #e0e2e2;
+    border-left: 1px solid #e0e2e2;
 
     display: flex;
     flex-flow: column nowrap;
