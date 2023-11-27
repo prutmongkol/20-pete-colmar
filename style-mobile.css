@@ -130,6 +130,33 @@
     }
     /* End of Course */
 
+    /* Thesis */
+    .thesis-container-main__title,
+    .thesis-container-main__text,
+    .thesis-container__side {
+        display: none;
+    }
+
+    .thesis__title {
+        font-size: 1.8em;
+        color: #4a4a4a;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .thesis__container {
+        padding: 0;
+    }
+
+    .thesis-container__main {
+        width: 100%;
+    }
+
+    .thesis-container-main__video {
+        width: 100%;
+    }
+    /* End of Thesis */
+
     /* Footer */
     .footer__term,
     .footer__privacy {

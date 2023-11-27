@@ -270,7 +270,7 @@ nav {
 
 .thesis-container__side {
     width: calc(40vw - 48px);
-
+    flex: 1 0 auto;
 }
 
 .thesis-container-side__item {
