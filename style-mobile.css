@@ -48,6 +48,42 @@
 
     }
     /* End of Hero */
+   
+    /* Information */
+    .information__main {
+        display: none;
+    }
+
+    .information__news {
+        padding: 16px 16px 32px 16px;
+    
+    }
+
+    .info-news__container {
+        padding: 0;
+        border: none;
+
+        flex-flow: column nowrap;
+    }
+
+    .info-news__container:nth-child(2),
+    .info-news__container:last-child {
+        padding-top: 32px;
+    }
+
+    .info-news-container__image--desktop {
+        display: none;
+    }
+
+    .info-news-container__image--mobile {
+        width: 100%;
+    }
+
+    .info-news-container__text-wrapper {
+        padding: 32px 16px 0px 16px;
+    }
+
+    /* End of Information */
 
     /* Footer */
     .footer__term,

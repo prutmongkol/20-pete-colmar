@@ -154,7 +154,7 @@ nav {
     border-bottom: none;
 }
 
-.info-news-container__image {
+.info-news-container__image--desktop {
     width: 35%;
     height: auto;
     padding-right: 16px;
@@ -166,8 +166,13 @@ nav {
     justify-content: center;
 }
 
+.info-news-container__title {
+    color: #4a4a4a;
+}
+
 .info-news-container__text {
     margin: 8px 0;
+    color: #4a4a4a;
 }
 
 .info-news-container__read-more a {

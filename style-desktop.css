@@ -6,4 +6,10 @@
         display: none;
     }
     /* End of Navigation */
+
+    /* Information */
+    .info-news-container__image--mobile {
+        display: none;
+    }
+    /* End of Information */
 }
