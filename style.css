@@ -154,7 +154,6 @@ nav {
 
 .info-news__container {
     padding: 16px;
-    border: 1px solid #e0e2e2;
 
     display: flex;
     flex-flow: row nowrap;

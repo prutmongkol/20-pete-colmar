@@ -60,7 +60,8 @@
 
     .information__news {
         padding: 16px 16px 32px 16px;
-    
+        border: none;
+        border-bottom: 1px solid #e0e2e2;    
     }
 
     .info-news__container {
@@ -70,7 +71,7 @@
         flex-flow: column nowrap;
     }
 
-    .info-news__container:hover {
+    .info-news__container:nth-child(2) {
         background: inherit;
     }
 
