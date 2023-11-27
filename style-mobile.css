@@ -70,6 +70,10 @@
         flex-flow: column nowrap;
     }
 
+    .info-news__container:hover {
+        background: inherit;
+    }
+
     .info-news__container:nth-child(2),
     .info-news__container:last-child {
         padding-top: 32px;

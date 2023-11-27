@@ -47,6 +47,21 @@ nav {
 .nav__sign-in--desktop {
     color: #4a4a4a;
 }
+
+.nav__campus--desktop a:any-link,
+.nav__online--desktop a:any-link,
+.nav__companies--desktop a:any-link,
+.nav__sign-in--desktop a:any-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav__campus--desktop:hover,
+.nav__online--desktop:hover,
+.nav__companies--desktop:hover,
+.nav__sign-in--desktop:hover {
+    text-decoration: underline;
+}
 /* End of Navigation */
 
 /* Hero */
@@ -143,6 +158,10 @@ nav {
 
     display: flex;
     flex-flow: row nowrap;
+}
+
+.info-news__container:hover {
+    background: #d8d8d8;
 }
 
 .info-news__container:first-child {
