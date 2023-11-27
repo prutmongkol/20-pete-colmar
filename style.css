@@ -182,7 +182,6 @@ nav {
 .info-news-container__read-more a:any-link {
     color: #4a90e2;
 }
-
 /* End of Information */
 
 /* Course */
@@ -195,6 +194,48 @@ nav {
     color: #4a4a4a;
     text-align: center;
     padding: 32px 0;
+}
+
+.course__container--first,
+.course__container--second {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.course__container--first {
+    padding: 0 72px 0 72px;
+}
+
+.course__container--second {
+    padding: 32px 72px 32px 72px;
+}
+
+.course-container__item {
+    background: white;
+    width: 30%;
+}
+
+.course-container__image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.course-container__title {
+    padding: 16px 16px 0px 16px;
+    color: #4a4a4a;
+}
+
+.course-container__courses {
+    padding: 8px 16px;
+    color: #767676;
+}
+
+.course-container__details {
+    padding: 0 16px 24px 16px;
+    color: #767676;
 }
 
 /* End of Course */
